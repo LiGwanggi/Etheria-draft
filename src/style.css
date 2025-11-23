@@ -755,7 +755,7 @@ body {
     gap: 3.5px;
     align-items: center;
     object-fit: contain;
-    margin-bottom: 10px;
+    margin-top: 25px;
   }
 
   .draft-area {

@@ -663,8 +663,8 @@ body {
     flex: 1;
     display: flex;
     object-fit: contain;
-    height: 450px;
-    margin-top: 20px;
+    height: 300px;
+    margin-top: 0px;
   }
 
   .champion-area {
@@ -706,7 +706,7 @@ body {
   .team-section {
     display: flex;
     flex-direction: column;
-    gap: 3px;
+    gap: 1.5px;
     align-items: center;
     object-fit: contain;
   }
@@ -719,7 +719,7 @@ body {
   .ban-section {
     display: flex;
     flex-direction: column;
-    gap: 6px;
+    gap: 0px;
     align-items: center;
     margin-bottom: 25px;
   }
@@ -755,7 +755,7 @@ body {
     gap: 3.5px;
     align-items: center;
     object-fit: contain;
-    margin-top: 25px;
+    margin-top: 60px;
   }
 
   .draft-area {

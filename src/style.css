@@ -666,7 +666,7 @@ body {
     display: flex;
     object-fit: contain;
     height: 250px;
-    margin-top: 100px;
+    margin-top: 75px;
   }
 
   .champion-area {
@@ -682,7 +682,7 @@ body {
   
   .search-container {
     display: flex;
-    gap: 8px;
+    gap: 5px;
     margin-bottom: 5px;
     align-items: center;
     flex-wrap: wrap;
@@ -764,7 +764,7 @@ body {
     display: grid;
     background: var(--bg-primary);
     flex-shrink: 1;
-    height: 500px;
+    height: 400px;
   }
 
   .slot-placeholder img {

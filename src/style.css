@@ -755,6 +755,12 @@ body {
     align-items: center;
     object-fit: contain;
   }
+
+  .draft-area {
+    display: grid;
+    background: var(--bg-primary);
+    flex-shrink: 1;
+  }
   
 }
 

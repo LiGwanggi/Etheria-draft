@@ -664,8 +664,8 @@ body {
     margin-left: 5px;
     margin-right: 5px;
     flex: 1;
-    flex-direction: column;
     display: flex;
+    object-fit: contain;
   }
 
   .champion-area {

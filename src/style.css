@@ -676,12 +676,13 @@ body {
     flex-direction: column;
     justify-content: center;
     flex-basis: auto;
+    margin-bottom: 20px;
   }
   
   .search-container {
     display: flex;
-    gap: 3px;
-    margin-bottom: 3px;
+    gap: 0px;
+    margin-bottom: 0px;
     align-items: center;
     flex-wrap: wrap;
     flex-shrink: 0;
@@ -722,7 +723,7 @@ body {
     flex-direction: column;
     gap: 0px;
     align-items: center;
-    margin-bottom: -50px;
+    margin-bottom: -53px;
   }
 
   .ban-label-text {
@@ -756,7 +757,7 @@ body {
     gap: 3.5px;
     align-items: center;
     object-fit: contain;
-    margin-top: 0px;
+    margin-top: -5px;
   }
 
   .draft-area {

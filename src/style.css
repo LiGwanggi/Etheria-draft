@@ -710,7 +710,7 @@ body {
     gap: 1.5px;
     align-items: center;
     object-fit: contain;
-    margin-bottom: 40;
+    margin-bottom: 10px;
   }
 
   .pick-slots {
@@ -757,7 +757,7 @@ body {
     gap: 3.5px;
     align-items: center;
     object-fit: contain;
-    margin-top: -5px;
+    margin-top: -8px;
   }
 
   .draft-area {

@@ -685,3 +685,11 @@ flex: 1 1 calc(33% - 10px);
 margin: 5px;
 
 }
+
+@media (max-width> 600px) {
+
+  .sidebar {
+  width: 100vh;
+    }
+
+  }

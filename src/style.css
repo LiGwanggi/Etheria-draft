@@ -659,13 +659,14 @@ body {
 
   .pick-ban-container {
     flex-direction: column;
-    padding: 1px 1px;
+    padding: 6px 6px;
     margin-left: 3px;
     margin-right: 3px;
     flex: 1;
     display: flex;
     object-fit: contain;
     height: 250px;
+    margin-top: 100px;
   }
 
   .champion-area {

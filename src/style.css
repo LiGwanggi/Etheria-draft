@@ -676,7 +676,7 @@ body {
     flex-direction: column;
     justify-content: center;
     flex-basis: auto;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
   
   .search-container {
@@ -686,11 +686,6 @@ body {
     align-items: center;
     flex-wrap: wrap;
     flex-shrink: 0;
-  }
-
-  .role-filters {
-    display: flex;
-    gap: 2px;
   }
 
   .champion-grid {
@@ -710,7 +705,7 @@ body {
     gap: 1.5px;
     align-items: center;
     object-fit: contain;
-    margin-bottom: -2px;
+    margin-bottom: 5px;
   }
 
   .pick-slots {

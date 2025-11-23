@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Summit draft · Etheria</title>
+  <link rel="icon" href="logo.jpg">
+  <link rel="stylesheet" href="/src/style.css">
+  <link rel="stylesheet" href="/src/main.ts">
+  <link rel="stylesheet" href="/src/vite-env.d.ts">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="logo"><img src="/logo.jpg" alt="Etheria Logo"></div>
+      <nav class="nav">
+        <a href="#" class="nav-item active">SUMMIT DRAFT</a>
+      </nav>
+      <div class="draft-summary">
+        <div class="summary-section">
+          <h3 class="summary-title blue-text">BLUE</h3>
+          <div class="summary-subsection">
+            <div class="summary-subtitle">
+              Picks:
+            </div>
+            <div id="bluePicksSummary" class="summary-list"></div>
+          </div>
+          <div class="summary-subsection">
+            <div class="summary-subtitle">
+              Ban:
+            </div>
+            <div id="blueBanSummary" class="summary-list"></div>
+          </div>
+        </div>
+        <div class="summary-section">
+          <h3 class="summary-title red-text">RED</h3>
+          <div class="summary-subsection">
+            <div class="summary-subtitle">
+              Picks:
+            </div>
+            <div id="redPicksSummary" class="summary-list"></div>
+          </div>
+          <div class="summary-subsection">
+            <div class="summary-subtitle">
+              Ban:
+            </div>
+            <div id="redBanSummary" class="summary-list"></div>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <main class="main-content">
+      <header class="top-bar">
+        <div class="top-bar-buttons">
+          <button class="btn-undo"><svg width="16" height="16" viewbox="0 0 16 16" fill="currentcolor">
+          <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"></path></svg> Undo Last</button> <button class="btn-reset"><img src="https://ext.same-assets.com/2291593573/4079578225.svg" alt="Reset"> Reset</button> <span class="credits-text">Brought to you by Gwanggi and Death of Etheria: Dead</span>
+        </div><a href="https://forms.gle/Ynm45Y3A1E155uGo7" target="_blank" class="feedback-link"><svg width="18" height="18" viewbox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2">
+        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg> <span>Feedback</span></a>
+      </header>
+      <div class="draft-area">
+        <div class="team-header blue-side">
+          <h2>BLUE SIDE</h2>
+        </div>
+        <div class="team-header red-side">
+          <h2>RED SIDE</h2>
+        </div>
+        <div class="pick-ban-container">
+          <div class="team-section">
+            <div class="pick-slots">
+              <div class="slot-item">
+                <div class="slot-label blue-label">
+                  B1
+                </div>
+                <div class="slot-placeholder pick-placeholder" data-slot="blue-1" data-type="pick"><img src="/slot.png" alt="No animus"></div>
+              </div>
+              <div class="slot-item">
+                <div class="slot-label blue-label">
+                  B2
+                </div>
+                <div class="slot-placeholder pick-placeholder" data-slot="blue-2" data-type="pick"><img src="/slot.png" alt="No animus"></div>
+              </div>
+              <div class="slot-item">
+                <div class="slot-label blue-label">
+                  B3
+                </div>
+                <div class="slot-placeholder pick-placeholder" data-slot="blue-3" data-type="pick"><img src="/slot.png" alt="No animus"></div>
+              </div>
+              <div class="slot-item">
+                <div class="slot-label blue-label">
+                  B4
+                </div>
+                <div class="slot-placeholder pick-placeholder" data-slot="blue-4" data-type="pick"><img src="/slot.png" alt="No animus"></div>
+              </div>
+              <div class="slot-item">
+                <div class="slot-label blue-label">
+                  B5
+                </div>
+                <div class="slot-placeholder pick-placeholder" data-slot="blue-5" data-type="pick"><img src="/slot.png" alt="No animus"></div>
+              </div>
+            </div>
+            <div class="ban-section">
+              <div class="ban-label-text">
+                BLUE
+              </div>
+              <div class="slot-item">
+                <div class="slot-label blue-label">
+                  PREBAN
+                </div>
+                <div class="slot-placeholder ban-placeholder" data-slot="blue-ban" data-type="ban"><img src="/slot.png" alt="No animus"></div>
+              </div>
+            </div>
+          </div>
+          <div class="team-section">
+            <div class="pick-slots">
+              <div class="slot-item">
+                <div class="slot-label red-label">
+                  R1
+                </div>
+                <div class="slot-placeholder pick-placeholder" data-slot="red-1" data-type="pick"><img src="/slot.png" alt="No animus"></div>
+              </div>
+              <div class="slot-item">
+                <div class="slot-label red-label">
+                  R2
+                </div>
+                <div class="slot-placeholder pick-placeholder" data-slot="red-2" data-type="pick"><img src="/slot.png" alt="No animus"></div>
+              </div>
+              <div class="slot-item">
+                <div class="slot-label red-label">
+                  R3
+                </div>
+                <div class="slot-placeholder pick-placeholder" data-slot="red-3" data-type="pick"><img src="/slot.png" alt="No animus"></div>
+              </div>
+              <div class="slot-item">
+                <div class="slot-label red-label">
+                  R4
+                </div>
+                <div class="slot-placeholder pick-placeholder" data-slot="red-4" data-type="pick"><img src="/slot.png" alt="No animus"></div>
+              </div>
+              <div class="slot-item">
+                <div class="slot-label red-label">
+                  R5
+                </div>
+                <div class="slot-placeholder pick-placeholder" data-slot="red-5" data-type="pick"><img src="/slot.png" alt="No animus"></div>
+              </div>
+            </div>
+            <div class="ban-section">
+              <div class="ban-label-text">
+                RED
+              </div>
+              <div class="slot-item">
+                <div class="slot-label red-label">
+                  PREBAN
+                </div>
+                <div class="slot-placeholder ban-placeholder" data-slot="red-ban" data-type="ban"><img src="/slot.png" alt="No animus"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="champion-area">
+        <div class="search-container">
+          <input type="text" id="championSearch" placeholder="Search">
+          <div class="role-filters">
+            <button class="role-btn role-red" data-color="red"><img src="/Red.png" alt="Red"></button> <button class="role-btn role-green" data-color="green"><img src="/Green.png" alt="Green"></button> <button class="role-btn role-blue" data-color="blue"><img src="/Blue.png" alt="Blue"></button> <button class="role-btn role-yellow" data-color="yellow"><img src="/Yellow.png" alt="Yellow"></button> <button class="role-btn role-purple" data-color="purple"><img src="/Purple.png" alt="Purple"></button>
+          </div>
+        </div>
+        <div class="champion-grid" id="championGrid"></div>
+      </div>
+    </main>
+  </div>
+  <script crossorigin="anonymous" src="//unpkg.com/same-runtime/dist/index.global.js"></script> 
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

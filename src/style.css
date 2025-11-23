@@ -663,8 +663,8 @@ body {
     flex: 1;
     display: flex;
     object-fit: contain;
-    height: 250px;
-    margin-top: 50px;
+    height: 300px;
+    margin-top: 80px;
   }
 
   .champion-area {
@@ -713,7 +713,7 @@ body {
 
   .pick-slots {
     display: flex;
-    gap: 8px;
+    gap: 20px;
   }
 
   .ban-section {
@@ -762,7 +762,7 @@ body {
     display: grid;
     background: var(--bg-primary);
     flex-shrink: 1;
-    height: 400px;
+    height: 350px;
   }
 
   .slot-placeholder img {

@@ -543,7 +543,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 8px;
+  gap: 3px;
   cursor: grab;
   transition: all 0.2s;
   user-select: none;
@@ -659,7 +659,7 @@ body {
 
   .pick-ban-container {
     flex-direction: column;
-    padding: 6px 6px;
+    padding: 3px 3px;
     flex: 1;
     display: flex;
     object-fit: contain;
@@ -751,7 +751,7 @@ body {
   .team-section {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 3.5px;
     align-items: center;
     object-fit: contain;
   }

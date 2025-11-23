@@ -619,20 +619,25 @@ body {
 
 @media (max-width: 768px) {
   .sidebar {
-    width: 100px;
+    display: none;
   }
 
   .logo img {
-    width: 10vh;
-    height: 10vh;
+    display: none;
   }
 
   .nav-item {
-    font-size: 0;
-    padding: 12px;
-    justify-content: center;
+    display: none;
   }
 
+  .draft-summary {
+    display: none;
+  }
+
+  .team-header {
+    padding: 4px 8px;
+  }
+    
   .main-content {
     margin-left: 60px;
   }
@@ -647,27 +652,28 @@ body {
 
   .pick-ban-container {
     flex-direction: column;
-    gap: 100vh;
-    padding: 100vh;
+    gap: 10px;
+    padding: 5px 7px;
   }
 
   .pick-slots {
-    gap: 100vh;
+    gap: 3px;
   }
 
   .pick-placeholder {
-    width: 100vh;
-    height: 100vh;
+    width: 15px;
+    height: 15px;
   }
 
   .slot-placeholder {
-    width: 100vh;
-    height: 100vh;
+    width: 12px;
+    height: 12px;
   }
 
   .champion-grid {
-    grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
-    gap: 15px;
+    grid-template-columns: repeat(auto-fill, minmax(12px, 1fr));
+    gap: 3px;
   }
+
 
 }

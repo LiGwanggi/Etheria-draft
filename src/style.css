@@ -649,7 +649,8 @@ body {
   }
 
   .top-bar {
-    padding: 18px 25px;
+    padding: 18px 25px:
+    justify-content: center;
   }
 
   .credits-text {

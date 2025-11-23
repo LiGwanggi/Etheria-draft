@@ -741,6 +741,18 @@ body {
     font-size: 18px;
     letter-spacing: 1px;
   }
+  
+  .draft-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .champion-area {
+    justify-content: space-between;
+    align-items: center;
+  }
+  
 }
 
 

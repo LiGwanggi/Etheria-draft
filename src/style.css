@@ -779,7 +779,17 @@ body {
   .team-header h2 {
     margin-left: 25px;
   }
-    
+
+  .slot-placeholder {
+    width: 65px;
+    height: 65px;
+  }
+
+  .pick-placeholder {
+    width: 60px;
+    height: 60px;
+  }
+  
 }
 
 

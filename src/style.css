@@ -640,7 +640,7 @@ body {
     display: flex;
     flex-direction: column;
     background: var(--bg-primary);
-    height: 16vh;
+    height: 100vh;
     overflow: hidden;
   }
 
@@ -662,25 +662,7 @@ body {
     padding: 5px 7px;
   }
 
-  .team-section {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  align-items: center;
-}
-
-.pick-slots {
-  display: flex;
-  gap: 3px;
-}
-
-.ban-section {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5px;
-  align-items: center;
-}
 
 
 
-}
+

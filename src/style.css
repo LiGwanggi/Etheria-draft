@@ -659,12 +659,12 @@ body {
 
   .pick-ban-container {
     flex-direction: column;
-    padding: 1px 1px;
+    padding: 0px 0px;
     flex: 1;
     display: flex;
     object-fit: contain;
     height: 450px;
-    margin-top: 5px;
+    margin-top: 0px;
   }
 
   .champion-area {
@@ -793,6 +793,10 @@ body {
   .champion-image {
     width: 80px;
     aspect-ratio: 1;
+  }
+
+  .team-header {
+    display: none;
   }
   
 }

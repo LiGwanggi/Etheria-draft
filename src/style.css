@@ -619,7 +619,7 @@ body {
 
 @media (max-width: 768px) {
   .sidebar {
-    width: 10vh;
+    width: 100px;
   }
 
   .logo img {
@@ -638,7 +638,7 @@ body {
   }
 
   .top-bar {
-    padding: 15px 20px;
+    padding: 18px 25px;
   }
 
   .credits-text {

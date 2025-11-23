@@ -114,6 +114,9 @@ function renderChampions(championsToRender: Champion[] = champions) {
     card.addEventListener('dragstart', handleDragStart);
     card.addEventListener('dragend', handleDragEnd);
 
+    // Add click-to-place functionality
+    card.addEventListener('click', handleChampionClick);
+
     grid.appendChild(card);
   }
 }
@@ -359,6 +362,74 @@ interface BanAction {
 }
 
 let banHistory: BanAction[] = [];
+
+// Draft order for click-to-place functionality
+const DRAFT_ORDER = [
+  'blue-ban',
+  'red-ban',
+  'blue-1',
+  'red-1',
+  'red-2',
+  'blue-2',
+  'blue-3',
+  'red-3',
+  'red-4',
+  'blue-4',
+  'blue-5',
+  'red-5',
+];
+
+// Get next available slot in draft order
+function getNextAvailableSlot(): HTMLElement | null {
+  for (const slotId of DRAFT_ORDER) {
+    const slot = document.querySelector(`[data-slot="${slotId}"]`) as HTMLElement;
+    if (slot && !slot.dataset.champion) {
+      return slot;
+    }
+  }
+  return null;
+}
+
+// Handle champion click to place in next available slot
+function handleChampionClick(e: MouseEvent) {
+  const card = e.currentTarget as HTMLElement;
+  const championName = card.dataset.championName || '';
+  const championImage = card.dataset.championImage || '';
+
+  // Check if champion is already picked
+  if (card.classList.contains('picked')) {
+    return;
+  }
+
+  // Get next available slot
+  const nextSlot = getNextAvailableSlot();
+  if (!nextSlot) {
+    // All slots are filled
+    return;
+  }
+
+  // Place champion in the slot
+  const img = nextSlot.querySelector('img') as HTMLImageElement;
+  if (img) {
+    // Save to history before making change
+    banHistory.push({
+      slot: nextSlot,
+      previousImage: img.src,
+      previousAlt: img.alt,
+      previousChampion: nextSlot.dataset.champion,
+      newChampion: championName,
+    });
+
+    // Update the slot
+    img.src = championImage;
+    img.alt = championName;
+    nextSlot.dataset.champion = championName;
+
+    updateUndoButton();
+    updateDraftSummary();
+    updatePickedChampions();
+  }
+}
 
 function handleDragStart(e: DragEvent) {
   const card = e.currentTarget as HTMLElement;

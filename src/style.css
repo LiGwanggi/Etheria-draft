@@ -665,6 +665,7 @@ body {
     flex: 1;
     display: flex;
     object-fit: contain;
+    height: 80px;
   }
 
   .champion-area {

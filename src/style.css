@@ -745,12 +745,10 @@ body {
   .draft-area {
     display: flex;
     justify-content: space-between;
-    align-items: center;
   }
   
   .champion-area {
     justify-content: space-between;
-    align-items: center;
   }
   
 }

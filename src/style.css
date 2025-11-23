@@ -663,8 +663,8 @@ body {
     flex: 1;
     display: flex;
     object-fit: contain;
-    height: 300px;
-    margin-top: 80px;
+    height: 450px;
+    margin-top: 5px;
   }
 
   .champion-area {
@@ -781,13 +781,18 @@ body {
   }
 
   .slot-placeholder {
+    width: 60px;
+    height: 60px;
+  }
+
+  .pick-placeholder {
     width: 65px;
     height: 65px;
   }
 
-  .pick-placeholder {
-    width: 60px;
-    height: 60px;
+  .champion-image {
+    width: 80px;
+    aspect-ratio: 1;
   }
   
 }

@@ -665,7 +665,7 @@ body {
     flex: 1;
     display: flex;
     object-fit: contain;
-    height: 80px;
+    height: 200px;
   }
 
   .champion-area {
@@ -707,20 +707,20 @@ body {
   .team-section {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
     align-items: center;
     object-fit: contain;
   }
 
   .pick-slots {
     display: flex;
-    gap: 15px;
+    gap: 8px;
   }
 
   .ban-section {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 4px;
     align-items: center;
   }
 
@@ -761,6 +761,7 @@ body {
     display: grid;
     background: var(--bg-primary);
     flex-shrink: 1;
+    height: 250px;
   }
   
 }

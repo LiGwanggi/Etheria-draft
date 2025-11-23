@@ -633,6 +633,16 @@ body {
   .draft-summary {
     display: none;
   }
+  
+  .main-content {
+    margin-left: 35px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background: var(--bg-primary);
+    height: 16vh;
+    overflow: hidden;
+  }
 
   .team-header {
     padding: 4px 8px;

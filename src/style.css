@@ -659,7 +659,7 @@ body {
 
   .pick-ban-container {
     flex-direction: column;
-    padding: 3px 3px;
+    padding: 1px 1px;
     flex: 1;
     display: flex;
     object-fit: contain;
@@ -680,8 +680,8 @@ body {
   
   .search-container {
     display: flex;
-    gap: 5px;
-    margin-bottom: 5px;
+    gap: 3px;
+    margin-bottom: 3px;
     align-items: center;
     flex-wrap: wrap;
     flex-shrink: 0;
@@ -694,19 +694,19 @@ body {
 
   .champion-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
     gap: 4px;
     height: calc(100vh - 300px);
     overflow-y: auto;
     overflow-x: hidden;
-    padding-right: 10px;
+    padding-right: 0px;
     object-fit: cover;
   }
 
   .team-section {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 3px;
     align-items: center;
     object-fit: contain;
   }

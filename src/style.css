@@ -664,7 +664,7 @@ body {
     display: flex;
     object-fit: contain;
     height: 450px;
-    margin-top: 0px;
+    margin-top: 20px;
   }
 
   .champion-area {
@@ -721,6 +721,7 @@ body {
     flex-direction: column;
     gap: 6px;
     align-items: center;
+    margin-bottom: 25px;
   }
 
   .ban-label-text {

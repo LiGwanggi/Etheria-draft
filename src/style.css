@@ -709,7 +709,7 @@ body {
     flex-direction: column;
     gap: 20px;
     align-items: center;
-    object-fit: cover;
+    object-fit: contain;
   }
 
   .pick-slots {
@@ -747,6 +747,14 @@ body {
   
   .champion-area {
     justify-content: space-between;
+  }
+
+  .team-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    object-fit: contain;
   }
   
 }

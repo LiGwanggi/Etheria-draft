@@ -663,7 +663,7 @@ body {
     flex: 1;
     display: flex;
     object-fit: contain;
-    height: 300px;
+    height: 350px;
     margin-top: 0px;
   }
 
@@ -755,7 +755,7 @@ body {
     gap: 3.5px;
     align-items: center;
     object-fit: contain;
-    margin-top: 60px;
+    margin-top: 300px;
   }
 
   .draft-area {

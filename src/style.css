@@ -645,11 +645,11 @@ body {
   }
 
   .team-header {
-    padding: 4px 8px;
+    padding: 2px 2px;
   }
 
   .top-bar {
-    padding: 18px 25px;
+    padding: 5px 5px;
     justify-content: center;
   }
 
@@ -659,13 +659,13 @@ body {
 
   .pick-ban-container {
     flex-direction: column;
-    padding: 5px 7px;
-    margin-left: 5px;
-    margin-right: 5px;
+    padding: 1px 1px;
+    margin-left: 3px;
+    margin-right: 3px;
     flex: 1;
     display: flex;
     object-fit: contain;
-    height: 200px;
+    height: 250px;
   }
 
   .champion-area {
@@ -763,7 +763,23 @@ body {
     flex-shrink: 1;
     height: 250px;
   }
-  
+
+  .slot-placeholder img {
+    width: 75%;
+    height: 75%;
+    object-fit: cover;
+    pointer-events: none;
+  }
+
+  .slot-placeholder[data-champion]::after {
+    content: '×';
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    width: 15px;
+    height: 15px;
+  }
+    
 }
 
 

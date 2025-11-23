@@ -737,6 +737,8 @@ body {
     flex-direction: column;
     gap: 8px;
     align-items: center;
+    width: 75%;
+    height: 75%;
   }
 
   .slot-label {

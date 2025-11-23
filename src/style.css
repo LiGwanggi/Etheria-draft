@@ -691,7 +691,7 @@ body {
   .champion-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
-    gap: 4px;
+    gap: 0px;
     height: calc(100vh - 300px);
     overflow-y: auto;
     overflow-x: hidden;

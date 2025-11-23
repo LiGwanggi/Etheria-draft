@@ -710,7 +710,7 @@ body {
     gap: 1.5px;
     align-items: center;
     object-fit: contain;
-    margin-bottom: 10px;
+    margin-bottom: -2px;
   }
 
   .pick-slots {
@@ -802,8 +802,13 @@ body {
   .team-header {
     display: none;
   }
+
+  .role-filters {
+    display: none;
+  }
   
 }
+
 
 
 

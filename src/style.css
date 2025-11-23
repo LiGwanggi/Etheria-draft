@@ -663,6 +663,7 @@ body {
     margin-left: 5px;
     margin-right: 5px;
     flex: 1;
+    object-fit: cover;
   }
 
   .champion-area {
@@ -688,6 +689,17 @@ body {
   .role-filters {
   display: flex;
   gap: 2px;
+  }
+
+  .champion-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 4px;
+  height: calc(100vh - 400px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: 10px;
+  object-fit: cover;
   }
 }
 

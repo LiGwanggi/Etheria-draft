@@ -743,11 +743,6 @@ body {
     letter-spacing: 1px;
   }
   
-  .draft-area {
-    display: flex;
-    justify-content: space-between;
-  }
-  
   .champion-area {
     justify-content: space-between;
   }

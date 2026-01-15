@@ -30,6 +30,7 @@ const champions: Champion[] = [
   { name: 'Dorothy Constant', image: 'DorothyC.png', color: 'yellow' },
   { name: 'Dorothy Reason', image: 'Dorothy.png', color: 'red' },
   { name: 'Fangus', image: 'Fangus.png', color: 'red' },
+  { name: 'Fiamelia', image: 'Fiamelia.png', color: 'yellow' },
   { name: 'Freya', image: 'Freya.png', color: 'green' },
   { name: 'Fuqiu', image: 'Fuqiu.png', color: 'green' },
   { name: 'Gray', image: 'Gray.png', color: 'green' },
